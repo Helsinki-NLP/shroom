@@ -5,7 +5,7 @@
 
 **Join the mailing group:** [semeval-2024-task-6-shroom@googlegroups.com](https://groups.google.com/u/1/g/semeval-2024-task-6-shroom)
 
-**[TRIAL] Download trial data - [Google drive link]()** (Updated July 17, 2023): Trial data.
+**[TRIAL] Download trial data - [Google drive link](https://drive.google.com/file/d/1N6NE7UvYP2G8oQGv4s5voEzU8r3lTZzP/view?usp=sharing)** (Updated July 17, 2023): Trial data.
 
 **Organizers of the shared task:**
 
