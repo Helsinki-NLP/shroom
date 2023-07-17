@@ -3,14 +3,17 @@
 
 **Task:** SHROOM participants will need to detect grammatically sound output that contains incorrect semantic information (i.e. unsupported or inconsistent with the source input), with or without having access to the model that produced the output.
 
+**Join the mailing group:** [semeval-2024-task-6-shroom@googlegroups.com](https://groups.google.com/u/1/g/semeval-2024-task-6-shroom)
+
+**[TRIAL] Download trial data - [Google drive link]()** (Updated July 17, 2023): Trial data.
 
 **Organizers of the shared task:**
 
-- [Elaine Zosa](), 
+- [Elaine Zosa](https://ezosa.github.io/), 
 University of Helsinki, Finland
-- [Raul Vazquez](), 
+- [Raúl Vázquez](https://jrvc.github.io/), 
 University of Helsinki, Finland
-- [Jorg Tiedemann](), 
+- [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
 University of Helsinki, Finland
 - [Vincent Segonne](), 
 Universite Grenoble Alpes, France
@@ -18,8 +21,8 @@ Universite Grenoble Alpes, France
 University of Helsinki, Finland
 - [Alessandro Raganato](https://raganato.github.io/), 
 Department of Informatics, Systems, and Communication, University of Milano-Bicocca, Italy
-- [Timothee Mickus](), 
+- [Timothee Mickus](https://timotheemickus.github.io/), 
 University of Helsinki, Finland
-- [Marianna Apidianaki](), 
+- [Marianna Apidianaki](https://mariannaapi.github.io/), 
 University of Pennsylvania, USA
 
