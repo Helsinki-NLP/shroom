@@ -25,7 +25,7 @@ Universite Grenoble Alpes, France
 - [Teemu Vahtola](), 
 University of Helsinki, Finland
 - [Alessandro Raganato](https://raganato.github.io/), 
-Department of Informatics, Systems, and Communication, University of Milano-Bicocca, Italy
+University of Milano-Bicocca, Italy
 - [Timothee Mickus](https://timotheemickus.github.io/), 
 University of Helsinki, Finland
 - [Marianna Apidianaki](https://mariannaapi.github.io/), 
