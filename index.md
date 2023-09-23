@@ -10,6 +10,8 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **Join the mailing group:** [semeval-2024-task-6-shroom@googlegroups.com](https://groups.google.com/u/1/g/semeval-2024-task-6-shroom)
 
+**[Codalab competition page](https://codalab.lisn.upsaclay.fr/competitions/15726)** 
+
 **[TRIAL] Download trial data - [Google drive link](https://drive.google.com/file/d/12DquaVHbnAAlNzLhiQZOG5Fw1h4JyNIm/view?usp=sharing)** (Updated August 2, 2023): Trial data including README file (in v1.1 only the README file has been updated). 
 
 **[DEV] Download validation data - [Google drive link](https://drive.google.com/file/d/1p57VPdhK_dVjEJ4HAPi1vzEn2q-QGqSa/view?usp=sharing)** (Updated September 11, 2023): Validation data including README file. 
