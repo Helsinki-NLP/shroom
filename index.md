@@ -12,6 +12,8 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **[Codalab competition page](https://codalab.lisn.upsaclay.fr/competitions/15726)** 
 
+**[Follow us on Twitter](https://twitter.com/shroom2024)**
+
 **[TRAIN unlabeled] Download unlabeled training data - [Google drive link](https://drive.google.com/file/d/1IrVRFPnDPUiWHClooLRIeQpbo9ZD7Kr6/view?usp=sharing)** (Updated September 23, 2023): unlabeled model agnostic and model aware training data.
 
 **[TRIAL] Download trial data - [Google drive link](https://drive.google.com/file/d/12DquaVHbnAAlNzLhiQZOG5Fw1h4JyNIm/view?usp=sharing)** (Updated August 2, 2023): Trial data including README file (in v1.1 only the README file has been updated). 
