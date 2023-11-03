@@ -18,7 +18,7 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **[TRIAL] Download trial data - [Google drive link](https://drive.google.com/file/d/12DquaVHbnAAlNzLhiQZOG5Fw1h4JyNIm/view?usp=sharing)** (Updated August 2, 2023): Trial data including README file (in v1.1 only the README file has been updated). 
 
-**[DEV] Download validation data - [Google drive link](https://drive.google.com/file/d/1gwanWbGl5s6VEDw2ZoRqx5M6WBmvWcGy/view?usp=sharing)** (Updated November 3, 2023): Validation data including README file (in v2 only the README and the model-aware files have been updated). 
+**[DEV] Download validation data - [Google drive link](https://drive.google.com/file/d/1gwanWbGl5s6VEDw2ZoRqx5M6WBmvWcGy/view?usp=sharing)** (Updated November 3, 2023): Validation data including README file (in v2 only the README and the model-aware file have been updated). 
 
 **Organizers of the shared task:**
 
