@@ -15,7 +15,7 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 **[Follow us on Twitter](https://twitter.com/shroom2024)**
 
 **[TRAIN unlabeled] Download unlabeled training data - [Google drive link](https://drive.google.com/file/d/1wlGZL8Sdqu7xZngcUSrDqp3DCSkYWoaE/view?usp=sharing)** (Updated November 8, 2023): unlabeled model agnostic and model aware training data (in v2 only the model-aware file has been updated).    
-**NOTE:** No labeled training data is provided, however, feel free to use any existing methods and/or datasets to develop your systems, such as [Friel et al. 2023](https://arxiv.org/pdf/2310.18344.pdf), [Guerreiro et al. 2023](https://aclanthology.org/2023.eacl-main.75.pdf), and the [EdinburghNLP github repository](https://github.com/EdinburghNLP/awesome-hallucination-detection).
+**NOTE:** No labeled training data is provided, however, feel free to use any existing methods and/or datasets to develop your systems, such as [Friel et al. 2023](https://arxiv.org/pdf/2310.18344.pdf), [Guerreiro et al. 2023](https://aclanthology.org/2023.eacl-main.75.pdf), [Li et al. 2023](https://github.com/RUCAIBox/HaluEval), and the [EdinburghNLP github repository](https://github.com/EdinburghNLP/awesome-hallucination-detection).
 
 **[TRIAL] Download trial data - [Google drive link](https://drive.google.com/file/d/12DquaVHbnAAlNzLhiQZOG5Fw1h4JyNIm/view?usp=sharing)** (Updated August 2, 2023): Trial data including README file (in v1.1 only the README file has been updated). 
 
