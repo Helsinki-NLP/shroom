@@ -21,6 +21,9 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **[DEV] Download validation data - [Google drive link](https://drive.google.com/file/d/1gwanWbGl5s6VEDw2ZoRqx5M6WBmvWcGy/view?usp=sharing)** (Updated November 3, 2023): Validation data including README file (in v2 only the README and the model-aware file have been updated). 
 
+**[Baseline Kit] Download baseline participant kit - [Google drive link](https://drive.google.com/file/d/1Iv2jKa5XrNfQjzpFnc1WyNtN7AO59W99/view?usp=sharing)** (Updated December 19, 2023): baseline participant kit including README file. 
+
+
 **Organizers of the shared task:**
 
 - [Elaine Zosa](https://ezosa.github.io/), 
