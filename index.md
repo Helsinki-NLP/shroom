@@ -23,6 +23,7 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **[Baseline Kit] Download baseline participant kit - [Google drive link](https://drive.google.com/file/d/1Iv2jKa5XrNfQjzpFnc1WyNtN7AO59W99/view?usp=sharing)** (Updated December 19, 2023): baseline participant kit including README file. 
 
+[**Important dates for task participants**](https://semeval.github.io/SemEval2024/)
 
 **Organizers of the shared task:**
 
