@@ -25,6 +25,13 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 **[TEST unlabeled] Download unlabeled test data - [Google drive link](https://drive.google.com/file/d/1Kr5nfwQ1hdg4VkKPJNmljnc4kdqTyo83/view?usp=sharing)** (Updated January 10, 2024): unlabeled model agnostic and model aware test data.
 
+**[Ranking Submission TEST] - Following the final ranking of all submissions on the test data:**  (Updated February 2, 2024)    
+
+- [all submissions result - ZIP file](https://drive.google.com/file/d/1khfXSZa2-B1dv5YxLpvhq1Og1BIsFWVW/view?usp=sharing)
+- [all submissions pre_parsed - CSV file](https://drive.google.com/file/d/1c8hnsTj24GcgFcIJ6M3CXHptz01I-2_6/view?usp=sharing)
+- [ranking agnostic - CSV file](https://drive.google.com/file/d/1J-iRpZ1LQSkTnTKJaSFfJHa5zxoHd__K/view?usp=sharing)
+- [ranking aware - CSV file](https://drive.google.com/file/d/183DzxBUzYYhv_SCsR7-5zINFC9rhorTf/view?usp=sharing)
+
 [**Important dates for task participants**](https://semeval.github.io/SemEval2024/)
 
 **Organizers of the shared task:**
