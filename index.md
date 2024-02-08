@@ -29,8 +29,8 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 
 - [all submissions result - ZIP file](https://drive.google.com/file/d/1khfXSZa2-B1dv5YxLpvhq1Og1BIsFWVW/view?usp=sharing)
 - [all submissions pre_parsed - CSV file](https://drive.google.com/file/d/1c8hnsTj24GcgFcIJ6M3CXHptz01I-2_6/view?usp=sharing)
-- [ranking agnostic - CSV file](https://drive.google.com/file/d/1J-iRpZ1LQSkTnTKJaSFfJHa5zxoHd__K/view?usp=sharing)
-- [ranking aware - CSV file](https://drive.google.com/file/d/183DzxBUzYYhv_SCsR7-5zINFC9rhorTf/view?usp=sharing)
+- [ranking agnostic - CSV file](https://drive.google.com/file/d/1-4zF8iEWX_GdRxKSfGC0CfAszOhZfv4w/view?usp=sharing)
+- [ranking aware - CSV file](https://drive.google.com/file/d/1InbPoXgozM8pijD0hgmmD850WvuHlfRW/view?usp=sharing)
 
 [**Important dates for task participants**](https://semeval.github.io/SemEval2024/)
 
