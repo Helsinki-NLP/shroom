@@ -7,6 +7,9 @@ On the one hand, our current neural models have a propensity to produce inaccura
 
 With SHROOM we adopt a post hoc setting, where models have already been trained and outputs already produced: participants will be asked to perform binary classification to identify cases of fluent overgeneration hallucinations in two different setups: model-aware and model-agnostic tracks. That is, participants must detect grammatically sound outputs which contain incorrect or unsupported semantic information, inconsistent with the source input, with or without having access to the model that produced the output. To that end, we will provide participants with a collection of checkpoints, inputs, references and outputs of systems covering three different NLG tasks: definition modeling (DM), machine translation (MT) and paraphrase generation (PG), trained with varying degrees of accuracy. The development set will provide binary annotations from at least five different annotators and a majority vote gold label.    
 
+[**Important dates for participants**](https://semeval.github.io/SemEval2024/):
+- **REVIEW DEADLINE on 15 March 2024 (23:59 UTC-12 "anywhere on Earth")**
+
 
 **Join the mailing group:** [semeval-2024-task-6-shroom@googlegroups.com](https://groups.google.com/u/1/g/semeval-2024-task-6-shroom)
 
@@ -32,7 +35,6 @@ With SHROOM we adopt a post hoc setting, where models have already been trained 
 - [ranking agnostic - CSV file](https://drive.google.com/file/d/1-4zF8iEWX_GdRxKSfGC0CfAszOhZfv4w/view?usp=sharing) (Updated February 19, 2024. Includes team names)
 - [ranking aware - CSV file](https://drive.google.com/file/d/1InbPoXgozM8pijD0hgmmD850WvuHlfRW/view?usp=sharing) (Updated February 19, 2024. Includes team names)
 
-[**Important dates for task participants**](https://semeval.github.io/SemEval2024/)
 
 **Organizers of the shared task:**
 
