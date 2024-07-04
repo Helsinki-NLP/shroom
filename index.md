@@ -1,4 +1,4 @@
-## Welcome to the SemEval-2025 Task-3 - Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes
+## Welcome to SemEval-2025 Task-3 - Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes
 
 _Previous iterations of the shared task: [2024](/shroom/2024)_
 
