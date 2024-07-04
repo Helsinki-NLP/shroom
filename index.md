@@ -27,12 +27,14 @@ University of Helsinki, Finland
 University of Helsinki, Finland
 - [Elaine Zosa](https://ezosa.github.io/), 
 SILO AI, Finland
+- [Teemu Vahtola](), 
+University of Helsinki, Finland
 - [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
 University of Helsinki, Finland
 - [Vincent Segonne](), 
 Universite Grenoble Alpes, France
-- [Teemu Vahtola](), 
-University of Helsinki, Finland
+- [Fernando Sánchez-Vega]()
+CIMAT A. C., Mexico
 - [Alessandro Raganato](https://raganato.github.io/), 
 University of Milano-Bicocca, Italy
 - [Jussi Karlgren](https://www.lingvi.st/)
