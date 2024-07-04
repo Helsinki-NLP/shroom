@@ -32,7 +32,7 @@ University of Helsinki, Finland
 - [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
 University of Helsinki, Finland
 - [Vincent Segonne](), 
-Universite Grenoble Alpes, France
+Université Bretagne Sud, France
 - [Fernando Sánchez-Vega](),
 CIMAT A. C., Mexico
 - [Alessandro Raganato](https://raganato.github.io/), 
