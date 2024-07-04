@@ -2,6 +2,8 @@
 
 _Previous iterations of the shared task: [2024](/shroom/2024)_
 
+Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context.
+
 This website is under construction! More information will be available soon.
 
 **Important dates:**
