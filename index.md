@@ -2,7 +2,11 @@
 
 <img style="width:45%" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="Mu-SHROOM logo" align="right">
 
-Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context.
+Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
+This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
+- We're looking at more languages beyond English,
+- We're now focusing on LLM outputs,
+- Participants will have to predict where the hallucination occurs.
 
 This website is under construction! More information will be available soon.
 
@@ -52,3 +56,5 @@ University of Helsinki, Finland
 **Looking for something else?**
 
 The website for the previous iteration of the shared task is available [here](/shroom/2024).
+
+The logo is available [here](/shroom/assets/img/mu-shroom-logo.png); we encourage participants to use it where relevant!
