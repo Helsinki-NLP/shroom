@@ -33,7 +33,7 @@ University of Helsinki, Finland
 University of Helsinki, Finland
 - [Vincent Segonne](), 
 Universite Grenoble Alpes, France
-- [Fernando Sánchez-Vega]()
+- [Fernando Sánchez-Vega](),
 CIMAT A. C., Mexico
 - [Alessandro Raganato](https://raganato.github.io/), 
 University of Milano-Bicocca, Italy
