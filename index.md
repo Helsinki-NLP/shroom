@@ -31,7 +31,7 @@ University of Helsinki, Finland
 University of Helsinki, Finland
 - [Elaine Zosa](https://ezosa.github.io/), 
 SILO AI, Finland
-- [Teemu Vahtola](), 
+- [Teemu Vahtola](https://teemuvh.github.io/), 
 University of Helsinki, Finland
 - [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
 University of Helsinki, Finland
@@ -57,4 +57,4 @@ University of Helsinki, Finland
 
 The website for the previous iteration of the shared task is available [here](/shroom/2024).
 
-The logo is available [here](/shroom/assets/img/mu-shroom-logo.png); we encourage participants to use it where relevant!
+The logo is available [here](/shroom/assets/img/mu-shroom-logo.png); we encourage participants to use it where relevant (esp. in your posters)! 
