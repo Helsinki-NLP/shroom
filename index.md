@@ -1,6 +1,6 @@
 ## Welcome to SemEval-2025 Task-3 - Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes
 
-_Previous iterations of the shared task: [2024](/shroom/2024)_
+<img style="width:75%" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="Mu-SHROOM">
 
 Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context.
 
@@ -45,3 +45,8 @@ University of Edinburgh, UK
 University of Pennsylvania, USA
 - [Joseph Attieh](), 
 University of Helsinki, Finland
+
+
+**Looking for something else?**
+
+The website for the previous iteration of the shared task is available [here](/shroom/2024).
