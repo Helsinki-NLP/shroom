@@ -57,4 +57,4 @@ University of Helsinki, Finland
 
 The website for the previous iteration of the shared task is available [here](/shroom/2024).
 
-The logo is available [here](/shroom/assets/img/mu-shroom-logo.png); we encourage participants to use it where relevant (esp. in your posters)! 
+The logo is available [here](/shroom/assets/img/mu-shroom-logo.png) (<a href="/shroom/assets/img/mu-shroom-logo.png" download>download</a>); we encourage participants to use it where relevant (esp. in your posters)! 
