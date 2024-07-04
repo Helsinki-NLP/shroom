@@ -47,10 +47,10 @@ SILO AI, Finland
 University of Helsinki, Finland
 - [Liane Guillou](https://sites.google.com/site/lianeguillou/home)
 University of Edinburgh, UK
-- [Marianna Apidianaki](https://mariannaapi.github.io/), 
-University of Pennsylvania, USA
 - [Joseph Attieh](), 
 University of Helsinki, Finland
+- [Marianna Apidianaki](https://mariannaapi.github.io/), 
+University of Pennsylvania, USA
 
 
 **Looking for something else?**
