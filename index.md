@@ -25,9 +25,9 @@ This information is subject to change.
 
 **Organizers of the shared task:**
 
-- [Timothee Mickus](https://timotheemickus.github.io/), 
-University of Helsinki, Finland
 - [Raúl Vázquez](https://jrvc.github.io/), 
+University of Helsinki, Finland
+- [Timothee Mickus](https://timotheemickus.github.io/), 
 University of Helsinki, Finland
 - [Elaine Zosa](https://ezosa.github.io/), 
 SILO AI, Finland
