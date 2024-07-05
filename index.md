@@ -41,11 +41,11 @@ Université Bretagne Sud, France
 CIMAT A. C., Mexico
 - [Alessandro Raganato](https://raganato.github.io/), 
 University of Milano-Bicocca, Italy
-- [Jussi Karlgren](https://www.lingvi.st/)
+- [Jussi Karlgren](https://www.lingvi.st/),
 SILO AI, Finland
-- [Shaoxiong Ji](https://www.mv.helsinki.fi/home/shaoxion/)
+- [Shaoxiong Ji](https://www.mv.helsinki.fi/home/shaoxion/),
 University of Helsinki, Finland
-- [Liane Guillou](https://sites.google.com/site/lianeguillou/home)
+- [Liane Guillou](https://sites.google.com/site/lianeguillou/home),
 University of Edinburgh, UK
 - [Joseph Attieh](), 
 University of Helsinki, Finland
