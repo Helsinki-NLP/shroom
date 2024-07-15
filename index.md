@@ -8,7 +8,25 @@ This shared task builds upon our previous iteration, SHROOM, with a few key chan
 - We're now focusing on LLM outputs,
 - Participants will have to predict where the hallucination occurs.
 
-This website is under construction! More information will be available soon.
+_This website is under construction_. More information will be available soon.
+
+**Participant info**
+
+Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)!
+
+
+
+**Data**
+
+Below are links 
+
+| Dataset split | Acces |
+|---|---|
+| **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> |
+| **Validation set** | To be published (ETA Sept 2nd) |
+| **Unlabeled train set** | To be published (ETA Sept 2nd) |
+| **Unlabeled test set** | To be published (ETA Jan 10th) |
+| **Labeled test set** | To be published (ETA Feb 1st) |
 
 **Important dates:**
 
