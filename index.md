@@ -6,6 +6,9 @@
 
 <img style="width:45%" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="Mu-SHROOM logo" align="right">
 
+Welcome to the official shared task website for Mu-SHROOM, a [SemEval-2025](https://semeval.github.io/SemEval2025/) shared task!
+
+Mu-SHROOM stands for "**Mu**ltilingual **S**hared-task on **H**allucinations and **R**elated **O**bservable **O**vergeneration **M**istakes".
 Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
 This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
 - We're looking at multiple languages: Arabic (Modern standard), Chinese (Mandarin), English, Finnish, French, German, Italian, Spanish, and Swedish;
