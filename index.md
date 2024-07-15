@@ -1,4 +1,5 @@
-### <span style="color: white;"> Welcome to SemEval-2025 Task-3 — Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes</span>
+<!-- ### <span style="color: white;"> Welcome to SemEval-2025 Task-3 — Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes</span> -->
+ ### Welcome to SemEval-2025 Task-3 — Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes 
 
 <img style="width:45%" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="Mu-SHROOM logo" align="right">
 
