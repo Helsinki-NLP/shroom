@@ -8,8 +8,8 @@
 
 Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
 This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
-- We're looking at multiple languages: Arabic, Chinese (Mandarin), English, Finnish, French, German, Italian, Spanish, and Swedish
-- We're now focusing on LLM outputs,
+- We're looking at multiple languages: Arabic (Modern standard), Chinese (Mandarin), English, Finnish, French, German, Italian, Spanish, and Swedish;
+- We're now focusing on LLM outputs;
 - Participants will have to predict where the hallucination occurs.
 
 _This website is under construction_. More information will be available soon.
