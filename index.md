@@ -22,7 +22,7 @@ Below are links
 
 | Dataset split | Acces |
 |---|---|
-| **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> |
+| **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
 | **Validation set** | To be published (ETA Sept 2nd) |
 | **Unlabeled train set** | To be published (ETA Sept 2nd) |
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
