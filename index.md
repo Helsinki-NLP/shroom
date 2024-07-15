@@ -24,7 +24,7 @@ Want to be kept in the loop? Join our [Google group mailing list](https://groups
 Below are links to access the data already released, as well as provisional expected release dates for future splits.
 Do note that release dates are subject to change.
 
-| Dataset split | Acces |
+| Dataset split | Access |
 |---|---|
 | **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
 | **Validation set** | To be published (ETA Sept 2nd) |
