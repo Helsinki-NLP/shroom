@@ -14,13 +14,12 @@ This shared task builds upon our previous iteration, SHROOM, with a few key chan
 
 _This website is under construction_. More information will be available soon.
 
-**Participant info**
+#### Participant info
 
 Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)!
 
 
-
-**Data**
+#### Data
 
 Below are links to access the data already released, as well as provisional expected release dates for future splits.
 Do note that release dates are subject to change.
@@ -33,7 +32,7 @@ Do note that release dates are subject to change.
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
-**Important dates:**
+#### Important dates
 
 This information is subject to change.
 - Sample data available: 15 July 2024
@@ -46,7 +45,7 @@ This information is subject to change.
 - SemEval workshop: Summer 2025 (co-located with a major NLP conference)
 
 
-**Organizers of the shared task:**
+#### Organizers of the shared task
 
 - [Raúl Vázquez](https://jrvc.github.io/), 
 University of Helsinki, Finland
@@ -76,7 +75,7 @@ University of Helsinki, Finland
 University of Pennsylvania, USA
 
 
-**Looking for something else?**
+#### Looking for something else?
 
 The website for the previous iteration of the shared task is available [here](/shroom/2024).
 
