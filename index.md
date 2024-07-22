@@ -60,6 +60,8 @@ SILO AI, Finland
 University of Helsinki, Finland
 - [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
 University of Helsinki, Finland
+- [Aman Sinha](https://amansinha09.github.io/),
+Université de Lorraine, France
 - [Vincent Segonne](), 
 Université Bretagne Sud, France
 - [Fernando Sánchez-Vega](),
