@@ -30,8 +30,8 @@ Do note that release dates are subject to change.
 | Dataset split | Access |
 |---|---|
 | **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
-| **Validation set** | To be published (ETA Sept 2nd) |
-| **Unlabeled train set** | To be published (ETA Sept 2nd) |
+| **Validation set** | <a href="https://a3s.fi/mickusti-2007780-pub/val.zip" download>download</a> (v1) |
+| **Unlabeled train set** | To be published (ETA Sept 12th) |
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
