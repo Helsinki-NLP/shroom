@@ -11,7 +11,7 @@ Welcome to the official shared task website for Mu-SHROOM, a [SemEval-2025](http
 Mu-SHROOM stands for "**Mu**ltilingual **S**hared-task on **H**allucinations and **R**elated **O**bservable **O**vergeneration **M**istakes".
 Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
 This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
-- We're looking at multiple languages: Arabic (Modern standard), Chinese (Mandarin), English, Finnish, French, German, Italian, Spanish, and Swedish;
+- We're looking at multiple languages: Arabic (Modern standard), Chinese (Mandarin), English, Finnish, French, German, Hindi, Italian, Spanish, and Swedish;
 - We're now focusing on LLM outputs;
 - Participants will have to predict where the hallucination occurs.
 
@@ -19,7 +19,9 @@ _This website is under construction_. More information will be available soon.
 
 #### Participant info
 
-Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)!
+Register ahead of time on [our submission website](https://mushroomeval.pythonanywhere.com/.)
+
+Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! We also have a [Twitter acount](https://x.com/mushroomtask).
 
 
 #### Data
@@ -42,9 +44,9 @@ This information is subject to change.
 - Validaiton data ready: 2 September 2024
 - Evaluation start: 10 January 2025
 - Evaluation end: 31 January 2025
-- Paper submission due: 28 February 2025
-- Notification to authors: 31 March 2025
-- Camera ready due: 21 April 2025
+- Paper submission due: 28 February 2025 (TBC)
+- Notification to authors: 31 March 2025 (TBC)
+- Camera ready due: 21 April 2025 (TBC)
 - SemEval workshop: Summer 2025 (co-located with a major NLP conference)
 
 
