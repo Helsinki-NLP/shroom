@@ -37,6 +37,8 @@ Do note that release dates are subject to change.
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
+Participants can also download the scoring program [here](./scorer.py) for reference and developing their systems.
+
 #### Important dates
 
 This information is subject to change.
