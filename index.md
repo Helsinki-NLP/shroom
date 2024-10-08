@@ -37,7 +37,11 @@ Do note that release dates are subject to change.
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
-Participants can also download the scoring program [here](./scorer.py) for reference and developing their systems.
+
+We are releasing a participant kit, which we'll keep building up. For now, it contains the scoring program as well as a random baseline, you can download it from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
+Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
+
+
 
 #### Important dates
 
