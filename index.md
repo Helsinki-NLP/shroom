@@ -33,7 +33,7 @@ Do note that release dates are subject to change.
 |---|---|
 | **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
 | **Validation set** | <a href="https://a3s.fi/mickusti-2007780-pub/val.zip" download>download</a> (v2) |
-| **Unlabeled train set** | To be published (ETA Sept 12th) |
+| **Unlabeled train set** | <a href="https://a3s.fi/mickusti-2007780-pub/train.zip" download>download</a> (v1) |
 | **Unlabeled test set** | To be published (ETA Jan 10th) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
