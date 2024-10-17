@@ -17,6 +17,24 @@ This shared task builds upon our previous iteration, SHROOM, with a few key chan
 
 _This website is under construction_. More information will be available soon.
 
+#### What is Mu-SHROOM?
+The task consists in detecting spans of text corresponding to hallucinations. 
+Participants are asked to determine which parts of a given text produced by LLMs constitute hallucinations.
+The task is held in multi-lingual and multi-model context, i.e., we provide data in multiple languages and produced by a variety of public-weights LLMs.´
+
+In practice, we provide an LLM output (as a string of characters, a list of tokens, and a list of logits), and participants have to compute, for every character in the LLM output string, the probability that it is marked as a hallucination.
+Participants are free to use any approach they deem appropriate, including using external resources.
+
+#### How will participants be evaluated?
+
+Participants will be ranked along two (character-level) metrics: 
+1. intersection-over-union of characters marked as hallucinations in the gold reference vs. predicted as such
+2. how well the probability assigned by the participants' system that a character is part of a hallucination correlates with the empirical probabilities observed in our annotators.
+
+Rankings and submissions will be done separately per language.
+
+Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
+
 #### Participant info
 
 Register ahead of time on [our submission website](https://mushroomeval.pythonanywhere.com/.)
@@ -39,7 +57,6 @@ Do note that release dates are subject to change.
 
 
 We are releasing a participant kit, which we'll keep building up. For now, it contains the scoring program as well as a random baseline, you can download it from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
-Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
 
 
 
