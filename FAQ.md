@@ -1,6 +1,4 @@
-## Welcome to the SemEval-2024 Task-6 - SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes
-
-# Mu-SHROOM 2025 - FAQ
+# **Mu-SHROOM 2025 - FAQ**
 
 We would like to thank Malvina Nissim and the students of the "Shared Task" course of the Master Information Science and the Erasmus Mundus Programme Language and Communication Technologies, University of Groningen, whose interest and careful scrutiny inspired the creation of this FAQ.
 
