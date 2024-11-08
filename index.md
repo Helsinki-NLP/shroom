@@ -95,8 +95,8 @@ CIMAT A. C., Mexico
 University of Milano-Bicocca, Italy
 - [Jussi Karlgren](https://www.lingvi.st/),
 SILO AI, Finland
-- [Shaoxiong Ji](https://www.mv.helsinki.fi/home/shaoxion/),
-University of Helsinki, Finland
+- [Shaoxiong Ji](https://shaoxiongji.github.io/),
+Technical University of Darmstadt, Germany
 - [Liane Guillou](https://sites.google.com/site/lianeguillou/home),
 University of Edinburgh, UK
 - [Joseph Attieh](), 
