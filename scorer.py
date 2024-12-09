@@ -20,15 +20,37 @@ def recompute_hard_labels(soft_labels):
         prev_end = end
     return hard_labels
 
-def load_jsonl_file_to_records(filename):
-    """read data from a JSONL file and format that as a `pandas.DataFrame`. 
-    Performs minor format checks (ensures that soft_labels are present, optionally compute hard_labels on the fly)."""
+
+def infer_soft_labels(hard_labels):
+    """reformat hard labels into soft labels with prob 1"""
+    return [
+        {
+            'start': start,
+            'end': end,
+            'prob': 1.0,
+        }
+        for start, end in hard_labels
+    ]
+
+
+def load_jsonl_file_to_records(filename, is_ref=True):
+    """read data from a JSONL file and format that as a `pandas.DataFrame`.
+    Performs minor format checks (ensures that some labels are present,
+    optionally compute missing labels on the fly)."""
     df = pd.read_json(filename, lines=True)
-    if 'hard_labels' not in df.columns:
-        df['hard_labels'] = df.soft_labels.apply(recompute_hard_labels)
+    if not is_ref:
+        assert ('hard_labels' in df.columns) or ('soft_labels' in df.columns), \
+            f'File {filename} contains no predicted label!'
+        if 'hard_labels' not in df.columns:
+            df['hard_labels'] = df.soft_labels.apply(recompute_hard_labels)
+        elif 'soft_labels' not in df.columns:
+            df['soft_labels'] = df.hard_labels.apply(infer_soft_labels)
     # adding an extra column for convenience
-    df['text_len'] = df.model_output_text.apply(len)
-    df = df[['id', 'soft_labels', 'hard_labels', 'text_len']]
+    columns = ['id', 'soft_labels', 'hard_labels']
+    if is_ref:
+        df['text_len'] = df.model_output_text.apply(len)
+        columns += ['text_len']
+    df = df[columns]
     return df.sort_values('id').to_dict(orient='records')
 
 def score_iou(ref_dict, pred_dict):
@@ -87,7 +109,7 @@ def main(ref_dicts, pred_dicts, output_file=None):
 if __name__ == '__main__':
     p = ap.ArgumentParser()
     p.add_argument('ref_file', type=load_jsonl_file_to_records)
-    p.add_argument('pred_file', type=load_jsonl_file_to_records)
+    p.add_argument('pred_file', type=lambda fname: load_jsonl_file_to_records(fname, is_ref=False))
     p.add_argument('output_file', type=str)
     a = p.parse_args()
     _ = main(a.ref_file, a.pred_file, a.output_file)
