@@ -56,7 +56,8 @@ Do note that release dates are subject to change.
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
 
-We are releasing a participant kit, which we'll keep building up. For now, it contains the scoring program as well as a random baseline, you can download it from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
+We are releasing a participant kit, which we'll keep building up. It contains the scoring program as well as two baselines: a random baseline and an XLM-R based system. The latter is a very naive system and is mostly meant for demonstration purposes (in particular how to convert character-level labels into wordpiece-level tags and vice-versa).  
+You can download the participant kit from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
 
 
 
