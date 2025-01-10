@@ -94,16 +94,20 @@ Université Bretagne Sud, France
 CIMAT A. C., Mexico
 - [Alessandro Raganato](https://raganato.github.io/), 
 University of Milano-Bicocca, Italy
+- [Jindřich Libovický](https://ufal.mff.cuni.cz/jindrich-libovicky),
+Charles University, Czechia
 - [Jussi Karlgren](https://www.lingvi.st/),
 SILO AI, Finland
 - [Shaoxiong Ji](https://shaoxiongji.github.io/),
 Technical University of Darmstadt, Germany
+- [Jindřich Helcl](https://ufal.mff.cuni.cz/jindrich-helcl),
+Charles University, Czechia
 - [Liane Guillou](https://sites.google.com/site/lianeguillou/home),
 University of Edinburgh, UK
 - [Ona de Gibert](),
 University of Helsinki, Finland
 - [Jaione Bengoatxea](),
-HiTZ Basque Center for Language Technology - Ixa, University of the Basque Country UPV/EHU
+HiTZ Basque Center for Language Technology - Ixa, University of the Basque Country UPV/EHU, Spain
 - [Joseph Attieh](), 
 University of Helsinki, Finland
 - [Marianna Apidianaki](https://mariannaapi.github.io/), 
