@@ -11,11 +11,12 @@ Welcome to the official shared task website for Mu-SHROOM, a [SemEval-2025](http
 Mu-SHROOM stands for "**Mu**ltilingual **S**hared-task on **H**allucinations and **R**elated **O**bservable **O**vergeneration **M**istakes".
 Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
 This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
-- We're looking at multiple languages: Arabic (Modern standard), Chinese (Mandarin), English, Finnish, French, German, Hindi, Italian, Spanish, and Swedish;
+- We're looking at 14 languages: Arabic (Modern standard), Basque, Catalan, Chinese (Mandarin), Czech, English, Farsi, Finnish, French, German, Hindi, Italian, Spanish, and Swedish;
 - We're now focusing on LLM outputs;
 - Participants will have to predict where the hallucination occurs.
 
-_This website is under construction_. More information will be available soon.
+_The information on this website is subject to change._ 
+We send announcements for any major update on the [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) and the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA).
 
 #### What is Mu-SHROOM?
 The task consists in detecting spans of text corresponding to hallucinations. 
@@ -23,10 +24,9 @@ Participants are asked to determine which parts of a given text produced by LLMs
 The task is held in multi-lingual and multi-model context, i.e., we provide data in multiple languages and produced by a variety of public-weights LLMs.´
 
 In practice, we provide an LLM output (as a string of characters, a list of tokens, and a list of logits), and participants have to compute, for every character in the LLM output string, the probability that it is marked as a hallucination.
-Participants are free to use any approach they deem appropriate, including using external resources.
+Participants are free to use any approach they deem appropriate, including using external resources, and work on any subset of languages they are interested in.
 
 #### How will participants be evaluated?
-
 Participants will be ranked along two (character-level) metrics: 
 1. intersection-over-union of characters marked as hallucinations in the gold reference vs. predicted as such
 2. how well the probability assigned by the participants' system that a character is part of a hallucination correlates with the empirical probabilities observed in our annotators.
@@ -36,14 +36,13 @@ Rankings and submissions will be done separately per language.
 Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
 
 #### Participant info
+Register on [our submission website](https://mushroomeval.pythonanywhere.com/). Only submissions made on our website will be considered for official rankings.
 
-Register ahead of time on [our submission website](https://mushroomeval.pythonanywhere.com/.)
-
-Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! We also have a [Twitter acount](https://x.com/mushroomtask).
+Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! 
+<!-- We also have a [Twitter acount](https://x.com/mushroomtask). -->
 
 
 #### Data
-
 Below are links to access the data already released, as well as provisional expected release dates for future splits.
 Do note that release dates are subject to change.
 
@@ -63,14 +62,14 @@ You can download the participant kit from <a href="https://a3s.fi/mickusti-20077
 
 #### Important dates
 
-This information is subject to change.
+This information is subject to change; also refer to the [SemEval website](https://semeval.github.io/SemEval2025/) for supplementary information on the submission process.
 - Sample data available: 15 July 2024
 - Validaiton data ready: 2 September 2024
 - Evaluation start: 10 January 2025
 - Evaluation end: 31 January 2025
-- Paper submission due: 28 February 2025 (TBC)
-- Notification to authors: 31 March 2025 (TBC)
-- Camera ready due: 21 April 2025 (TBC)
+- Paper submission due: 28 February 2025
+- Notification to authors: 31 March 2025
+- Camera ready due: 21 April 2025
 - SemEval workshop: Summer 2025 (co-located with ACL 2025)
 
 
