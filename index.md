@@ -121,4 +121,4 @@ The website for the previous iteration of the shared task is available [here](/s
 The logo is available [here](/shroom/assets/img/mu-shroom-logo.png) (<a href="/shroom/assets/img/mu-shroom-logo.png" download>download</a>); we encourage participants to use it where relevant (esp. in your posters)! 
 
 #### Still have questions?
-We have compiled a [**FAQ**](/shroom/FAQ)! You can also reach out via our communicaiton channels.
+We have compiled a [**FAQ**](/shroom/FAQ)! You can also reach out via our communication channels.
