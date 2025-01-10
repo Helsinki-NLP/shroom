@@ -52,11 +52,11 @@ Do note that release dates are subject to change.
 | **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
 | **Validation set** | <a href="https://a3s.fi/mickusti-2007780-pub/val.zip" download>download</a> (v2) |
 | **Unlabeled train set** | <a href="https://a3s.fi/mickusti-2007780-pub/train.zip" download>download</a> (v1) |
-| **Unlabeled test set** | To be published (ETA Jan 10th) |
+| **Unlabeled test set** | <a href="https://a3s.fi/mickusti-2007780-pub/test-unlabeled.zip" download>download</a> (v1) |
 | **Labeled test set** | To be published (ETA Feb 1st) |
 
 
-We are releasing a participant kit, which we'll keep building up. It contains the scoring program as well as two baselines: a random baseline and an XLM-R based system. The latter is a very naive system and is mostly meant for demonstration purposes (in particular how to convert character-level labels into wordpiece-level tags and vice-versa).  
+We are releasing a participant kit, which we'll keep building up. It contains the scoring program, a format checker, as well as two baselines: a random baseline and an XLM-R based system. The latter is a very naive system and is mostly meant for demonstration purposes (in particular how to convert character-level labels into wordpiece-level tags and vice-versa).  
 You can download the participant kit from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
 
 
@@ -71,7 +71,7 @@ This information is subject to change.
 - Paper submission due: 28 February 2025 (TBC)
 - Notification to authors: 31 March 2025 (TBC)
 - Camera ready due: 21 April 2025 (TBC)
-- SemEval workshop: Summer 2025 (co-located with a major NLP conference)
+- SemEval workshop: Summer 2025 (co-located with ACL 2025)
 
 
 #### Organizers of the shared task
@@ -100,6 +100,8 @@ SILO AI, Finland
 Technical University of Darmstadt, Germany
 - [Liane Guillou](https://sites.google.com/site/lianeguillou/home),
 University of Edinburgh, UK
+- [Ona de Gibert](),
+University of Helsinki, Finland
 - [Joseph Attieh](), 
 University of Helsinki, Finland
 - [Marianna Apidianaki](https://mariannaapi.github.io/), 
