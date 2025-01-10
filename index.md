@@ -102,6 +102,8 @@ Technical University of Darmstadt, Germany
 University of Edinburgh, UK
 - [Ona de Gibert](),
 University of Helsinki, Finland
+- [Jaione Bengoatxea](),
+HiTZ Basque Center for Language Technology - Ixa, University of the Basque Country UPV/EHU
 - [Joseph Attieh](), 
 University of Helsinki, Finland
 - [Marianna Apidianaki](https://mariannaapi.github.io/), 
