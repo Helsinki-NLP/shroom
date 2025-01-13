@@ -105,7 +105,7 @@ Charles University, Czechia
 University of Edinburgh, UK
 - [Ona de Gibert](),
 University of Helsinki, Finland
-- [Jaione Bengoatxea](),
+- [Jaione Bengoetxea](),
 HiTZ Basque Center for Language Technology - Ixa, University of the Basque Country UPV/EHU, Spain
 - [Joseph Attieh](), 
 University of Helsinki, Finland
