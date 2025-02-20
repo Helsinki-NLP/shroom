@@ -54,6 +54,8 @@ Do note that release dates are subject to change.
 | **Unlabeled test set** | <a href="https://a3s.fi/mickusti-2007780-pub/test-unlabeled.zip" download>download</a> (v1) |
 | **Labeled test set** | <a href="https://a3s.fi/mickusti-2007780-pub/test_labeled.zip" download>download</a> (v1)  |
 
+Supplementary metadata, including raw annotations before post-processing and the wikipedia URL used as a reference by our annotators, can be downloaded from <a href="https://a3s.fi/mickusti-2007780-pub/mushroom-extra-info.tar.gz" download>this link</a>.
+
 We are releasing a participant kit, which we'll keep building up. It contains the scoring program, a format checker, as well as two baselines: a random baseline and an XLM-R based system. The latter is a very naive system and is mostly meant for demonstration purposes (in particular how to convert character-level labels into wordpiece-level tags and vice-versa).  
 You can download the participant kit from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
 
