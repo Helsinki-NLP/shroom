@@ -41,6 +41,10 @@ Register on [our submission website](https://mushroomeval.pythonanywhere.com/). 
 Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! 
 <!-- We also have a [Twitter acount](https://x.com/mushroomtask). -->
 
+**The evaluation phase is now over! Congrats and thanks to all the participating teams.**
+You can check the official rankings [at this page](/rankings_iou), which is how we will report the results of this shared task. Alternatively, you can also see [this page](/rankings_cor) to have a look what the rankings would be if we ranked teams by how well their probability mass correlates with our annotations.
+
+
 
 #### Data
 Below are links to access the data already released, as well as provisional expected release dates for future splits.
