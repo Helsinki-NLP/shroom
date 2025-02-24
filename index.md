@@ -42,7 +42,7 @@ Want to be kept in the loop? Join our [Google group mailing list](https://groups
 <!-- We also have a [Twitter acount](https://x.com/mushroomtask). -->
 
 **The evaluation phase is now over! Congrats and thanks to all the participating teams.**
-You can check the official rankings [at this page](/rankings_iou), which is how we will report the results of this shared task. Alternatively, you can also see [this page](/rankings_cor) to have a look what the rankings would be if we ranked teams by how well their probability mass correlates with our annotations.
+You can check the official rankings [at this page](/shroom/rankings_iou), which is how we will report the results of this shared task. Alternatively, you can also see [this page](/shroom/rankings_cor) to have a look what the rankings would be if we ranked teams by how well their probability mass correlates with our annotations.
 
 
 
