@@ -36,7 +36,7 @@ Rankings and submissions will be done separately per language.
 Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
 
 #### Participant info
-Register on [our submission website](https://mushroomeval.pythonanywhere.com/). Only submissions made on our website will be considered for official rankings.
+<!-- Register on [our submission website](https://mushroomeval.pythonanywhere.com/). Only submissions made on our website will be considered for official rankings. -->
 
 Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! 
 <!-- We also have a [Twitter acount](https://x.com/mushroomtask). -->
