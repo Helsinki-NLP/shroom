@@ -28,7 +28,7 @@ Mu-SHROOM brings together multilingual evaluation, character-level scoring, and 
 🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
 
 ---
-## 🔮🍄👁‍🗨 ν-SHROOM 2026 (coming soon! TBC)
+## 🔮🍄👁‍🗨🤯 ν-SHROOM 2026 (coming soon! TBC)
 Get ready for the next iteration of the SHROOM series — **ν-SHROOM** (pronounced "nu-shroom" or "vi-shroom", interchangeably), coming in **2026**! Building on insights from SHROOM and Mu-SHROOM, ν-SHROOM will introduce new dimensions to the hallucination detection landscape.
 
 Stay tuned — more details will be announced later in 2025.
