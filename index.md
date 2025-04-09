@@ -1,128 +1,56 @@
-### Welcome to SemEval-2025 Task-3 — Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes 
+---
+title: The *SHROOM Shared Task Series
+description: Hallucinations and Related Observable Overgenerations
+layout: default
+---
 
-<!-- TM: somehow jrvc elected to add a white-on-white title?
-### <span style="color: white;"> Welcome to SemEval-2025 Task-3 — Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes</span> 
--->
+# Welcome to the *SHROOM Shared-Task Series on Hallucinations and Related Observable Overgeneration Mistakes
+The SHROOM shared task series brings together researchers and practitioners interested in detecting hallucinations — that is, fluent yet semantically incorrect or unsupported outputs — in natural language generation (NLG) systems. Since 2024, we've been pushing the boundaries of automatic hallucination detection, with each edition introducing new challenges and innovations.
 
-<img style="width:45%" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="Mu-SHROOM logo" align="right">
+This website serves as a central hub to explore the current and past editions of the shared task, including SHROOM (2024), Mu-SHROOM (2025), and the upcoming ν-SHROOM (2026).
 
-Welcome to the official shared task website for Mu-SHROOM, a [SemEval-2025](https://semeval.github.io/SemEval2025/) shared task!
+---
+## 🍄🤪🌀 SHROOM 2024
+<img style="width:30%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="right">
 
-Mu-SHROOM stands for "**Mu**ltilingual **S**hared-task on **H**allucinations and **R**elated **O**bservable **O**vergeneration **M**istakes".
-Mu-SHROOM will invite participants to detect hallucination spans in the outputs of instruction-tuned LLMs in a multilingual context. 
-This shared task builds upon our previous iteration, SHROOM, with a few key changes: 
-- We're looking at 14 languages: Arabic (Modern standard), Basque, Catalan, Chinese (Mandarin), Czech, English, Farsi, Finnish, French, German, Hindi, Italian, Spanish, and Swedish;
-- We're now focusing on LLM outputs;
-- Participants will have to predict where the hallucination occurs.
+**SHROOM** – the original Shared-task on Hallucinations and Related Observable Overgeneration Mistakes – kicked off the initiative at [SemEval-2024](https://semeval.github.io/SemEval2024/). Participants were asked to identify hallucinated content in NLG outputs across several generation tasks (e.g., machine translation, paraphrasing, definition modeling), both with and without access to the model that generated the outputs.
 
-_The information on this website is subject to change._ 
-We send announcements for any major update on the [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) and the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA).
+🔗 [Go to the SHROOM 2024 website](/shroom/2024)
 
-#### What is Mu-SHROOM?
-The task consists in detecting spans of text corresponding to hallucinations. 
-Participants are asked to determine which parts of a given text produced by LLMs constitute hallucinations.
-The task is held in multi-lingual and multi-model context, i.e., we provide data in multiple languages and produced by a variety of public-weights LLMs.´
+---
+##  🌈😜🍄 Mu-SHROOM 2025
+<img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="left">
 
-In practice, we provide an LLM output (as a string of characters, a list of tokens, and a list of logits), and participants have to compute, for every character in the LLM output string, the probability that it is marked as a hallucination.
-Participants are free to use any approach they deem appropriate, including using external resources, and work on any subset of languages they are interested in.
+**Mu-SHROOM** is the second edition of the shared task, held at [SemEval-2025](https://semeval.github.io/SemEval2025/). This multilingual extension of SHROOM expands the scope to 14 languages and shifts the focus to instruction-tuned large language models (LLMs). This time, the task targets hallucination **spans** at the character level — asking participants to predict where hallucinations occur and how likely they are.
 
-#### How will participants be evaluated?
-Participants will be ranked along two (character-level) metrics: 
-1. intersection-over-union of characters marked as hallucinations in the gold reference vs. predicted as such
-2. how well the probability assigned by the participants' system that a character is part of a hallucination correlates with the empirical probabilities observed in our annotators.
+Mu-SHROOM brings together multilingual evaluation, character-level scoring, and a diverse set of public-weight LLMs, making it a challenging and rich task for researchers in hallucination detection and robust NLG.
 
-Rankings and submissions will be done separately per language.
+🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
 
-Participants can also download the scoring program on its own [here](./scorer.py) for reference and developing their systems.
+---
+## 🔮🍄👁‍🗨 ν-SHROOM 2026 (coming soon! TBC)
+Get ready for the next iteration of the SHROOM series — **ν-SHROOM** (pronounced "nu-shroom" or "vi-shroom", interchangeably), coming in **2026**! Building on insights from SHROOM and Mu-SHROOM, ν-SHROOM will introduce new dimensions to the hallucination detection landscape.
 
-#### Participant info
-<!-- Register on [our submission website](https://mushroomeval.pythonanywhere.com/). Only submissions made on our website will be considered for official rankings. -->
+Stay tuned — more details will be announced later in 2025.
 
-Want to be kept in the loop? Join our [Google group mailing list](https://groups.google.com/g/semeval-2025-task-3-mu-shroom) or the [shared task Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)! 
-<!-- We also have a [Twitter acount](https://x.com/mushroomtask). -->
+---
 
-**The evaluation phase is now over! Congrats and thanks to all the participating teams.**
-You can check the official rankings [at this page](/shroom/iou_rankings), which is how we will report the results of this shared task. Alternatively, you can also see [this page](/shroom/cor_rankings) to have a look what the rankings would be if we ranked teams by how well their probability mass correlates with our annotations.
+## 👥🙌🌐 Join the SHROOM Community 
 
+Whether you're interested in joining the next round, learning from past editions, or just staying informed about hallucination detection in NLG, we'd love to have you in the community.
 
+- Join the conversation on [Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)
+- Check out the past editions Google gorups
+  - [Mu-SHROOM 2025](https://groups.google.com/g/semeval-2025-task-3-mu-shroom)
+  - [Mu-SHROOM 2024](https://groups.google.com/g/semeval-2024-task-6-shroom)
 
-#### Data
-Below are links to access the data already released, as well as provisional expected release dates for future splits.
-Do note that release dates are subject to change.
+---
 
-| Dataset split | Access |
-|---|---|
-| **Sample set** | <a href="https://a3s.fi/mickusti-2007780-pub/sample.zip" download>download</a> (v1) |
-| **Validation set** | <a href="https://a3s.fi/mickusti-2007780-pub/val.zip" download>download</a> (v2) |
-| **Unlabeled train set** | <a href="https://a3s.fi/mickusti-2007780-pub/train.zip" download>download</a> (v1) |
-| **Unlabeled test set** | <a href="https://a3s.fi/mickusti-2007780-pub/test-unlabeled.zip" download>download</a> (v1) |
-| **Labeled test set** | <a href="https://a3s.fi/mickusti-2007780-pub/test_labeled.zip" download>download</a> (v1)  |
+### 🧪 Want to dive straight in? 
+Visit one of the task pages above and start exploring data, baselines, and results.
 
-Supplementary metadata, including raw annotations before post-processing and the wikipedia URL used as a reference by our annotators, can be downloaded from <a href="https://a3s.fi/mickusti-2007780-pub/mushroom-extra-info.tar.gz" download>this link</a>.
-
-We are releasing a participant kit, which we'll keep building up. It contains the scoring program, a format checker, as well as two baselines: a random baseline and an XLM-R based system. The latter is a very naive system and is mostly meant for demonstration purposes (in particular how to convert character-level labels into wordpiece-level tags and vice-versa).  
-You can download the participant kit from <a href="https://a3s.fi/mickusti-2007780-pub/participant_kit.zip" download>here</a>.
-
-
-
-#### Important dates
-
-This information is subject to change; also refer to the [SemEval website](https://semeval.github.io/SemEval2025/) for supplementary information on the submission process.
-- Sample data available: 15 July 2024
-- Validaiton data ready: 2 September 2024
-- Evaluation start: 10 January 2025
-- Evaluation end: 31 January 2025
-- Paper submission due: 28 February 2025
-- Notification to authors: 31 March 2025
-- Camera ready due: 21 April 2025
-- SemEval workshop: Summer 2025 (co-located with ACL 2025)
-
-
-#### Organizers of the shared task
-
-- [Raúl Vázquez](https://jrvc.github.io/), 
-University of Helsinki, Finland
+Reach out if you have further questions, collaboration ideas or simply want to say hi:
 - [Timothee Mickus](https://timotheemickus.github.io/), 
 University of Helsinki, Finland
-- [Elaine Zosa](https://ezosa.github.io/), 
-SILO AI, Finland
-- [Teemu Vahtola](https://teemuvh.github.io/), 
+- [Raúl Vázquez](https://jrvc.github.io/), 
 University of Helsinki, Finland
-- [Jörg Tiedemann](https://blogs.helsinki.fi/tiedeman/), 
-University of Helsinki, Finland
-- [Aman Sinha](https://amansinha09.github.io/),
-Université de Lorraine, France
-- [Vincent Segonne](), 
-Université Bretagne Sud, France
-- [Fernando Sánchez-Vega](),
-CIMAT A. C., Mexico
-- [Alessandro Raganato](https://raganato.github.io/), 
-University of Milano-Bicocca, Italy
-- [Jindřich Libovický](https://ufal.mff.cuni.cz/jindrich-libovicky),
-Charles University, Czechia
-- [Jussi Karlgren](https://www.lingvi.st/),
-SILO AI, Finland
-- [Shaoxiong Ji](https://shaoxiongji.github.io/),
-Technical University of Darmstadt, Germany
-- [Jindřich Helcl](https://ufal.mff.cuni.cz/jindrich-helcl),
-Charles University, Czechia
-- [Liane Guillou](https://sites.google.com/site/lianeguillou/home),
-University of Edinburgh, UK
-- [Ona de Gibert](),
-University of Helsinki, Finland
-- [Jaione Bengoetxea](),
-HiTZ Basque Center for Language Technology - Ixa, University of the Basque Country UPV/EHU, Spain
-- [Joseph Attieh](), 
-University of Helsinki, Finland
-- [Marianna Apidianaki](https://mariannaapi.github.io/), 
-University of Pennsylvania, USA
-
-
-#### Looking for something else?
-
-The website for the previous iteration of the shared task is available [here](/shroom/2024).
-
-The logo is available [here](/shroom/assets/img/mu-shroom-logo.png) (<a href="/shroom/assets/img/mu-shroom-logo.png" download>download</a>); we encourage participants to use it where relevant (esp. in your posters)! 
-
-#### Still have questions?
-We have compiled a [**FAQ**](/shroom/FAQ)! You can also reach out via our communication channels.
