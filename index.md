@@ -28,6 +28,15 @@ Mu-SHROOM brings together multilingual evaluation, character-level scoring, and 
 🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
 
 ---
+##  🔍🧑‍🔬🍄 SHROOM-CAP Shared Task
+<img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/shroom-cap-blue+text.png" alt="SHROOM-CAP" title="SHROOM-CAP logo" align="left">
+
+**SHROOM-CAP** is the third edition of the shared task, held at [CHOMPS-2025](https://chomps2025.github.io/). This cross-lingual extension of SHROOM expands the scope to high and low resource languages with the special focus to indic languages. This time, the task targets hallucination in scientific domain — asking participants to predict if there is scienific hallucinations or not and how likely they are.
+
+
+🔗 [Explore SHROOM-CAP Shared Task](/shroom/2025a)
+
+---
 ## 🔮🍄👁‍🗨🤯 ν-SHROOM 2026 (coming soon! TBC)
 Get ready for the next iteration of the SHROOM series — **ν-SHROOM** (pronounced "nu-shroom" or "vi-shroom", interchangeably), coming in **2026**! Building on insights from SHROOM and Mu-SHROOM, ν-SHROOM will introduce new dimensions to the hallucination detection landscape.
 
