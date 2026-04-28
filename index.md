@@ -9,6 +9,35 @@ The SHROOM shared task series brings together researchers and practitioners inte
 
 This website serves as a central hub to explore the current and past editions of the shared task, including SHROOM (2024), Mu-SHROOM (2025), and the upcoming ν-SHROOM (2026).
 
+--- 
+
+## Explore Tasks
+
+<div class="task-grid">
+
+<a href="/shroom/2026" class="card">
+  <h3>Shroom-visions 2026</h3>
+  <p>Vision-language hallucination detection (4-class span classification).</p>
+</a>
+
+<a href="/shroom/2025a" class="card">
+  <h3>SHROOM-CAP 2025</h3>
+  <p>Cross-lingual scientific hallucination detection.</p>
+</a>
+
+<a href="/shroom/2025" class="card">
+  <h3>Mu-SHROOM 2025</h3>
+  <p>Multilingual hallucination span detection (14 languages).</p>
+</a>
+
+<a href="/shroom/2024" class="card">
+  <h3>SHROOM 2024</h3>
+  <p>Original hallucination detection task across NLG systems.</p>
+</a>
+
+</div>
+
+
 ---
 
 ## 🍄🤪🌀 SHROOM 2024
