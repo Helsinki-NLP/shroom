@@ -1,19 +1,21 @@
 .task-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
   gap: 16px;
   margin-top: 20px;
+  overflow-x: auto;
+  padding-bottom: 8px;
 }
 
 .card {
+  flex: 0 0 260px; /* fixed card width */
   display: block;
   padding: 16px;
   border: 1px solid #ddd;
   border-radius: 10px;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
   background: white;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .card:hover {
