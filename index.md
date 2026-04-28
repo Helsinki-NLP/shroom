@@ -46,13 +46,9 @@ Mu-SHROOM brings together multilingual evaluation, character-level scoring, and 
 ## 👁️🍄🔮 SHROOM-visions 2026
 <img style="width:25%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-visions-logo.png" alt="Shroom-visions" title="Shroom-visions logo" align="right">
 
-**Shroom-visions** is the latest iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles a critical question: *How do we make hallucination evaluation perennial in an era of rapidly evolving models?*
+**Shroom-visions** is the latest iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles a critical question: *How do we benchmark hallucination detection in an era of rapidly evolving models?*
 
-**Key innovations:**
-- 🎯 **Model-agnostic evaluation**: Benchmarking detection systems on both LVLM outputs *and* controllable, human-written samples that emulate hallucinations
-- 🖼️ **Vision-language focus**: Hallucination detection in image-conditioned text generation (VQA, image captioning, etc.)
-- 🏷️ **Fine-grained classification**: Four-category taxonomy (*Invention*, *Mischaracterization*, *OCR Problem*, *Miscounting*)
-- 🌍 **Multilingual scope**: Chinese, English, French, Italian
+We follow a vision-language focus, providing a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). We provide a four-category taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian)
 
 Participants develop systems to identify and classify hallucinated text spans at the character level, with evaluation based on span identification accuracy and confidence calibration.
 
