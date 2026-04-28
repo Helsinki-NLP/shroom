@@ -11,75 +11,41 @@ This website serves as a central hub to explore the current and past editions of
 
 --- 
 
-## Explore Tasks
+## Explore the tasks
 
-<div class="task-grid">
-
-<a href="/shroom/2026" class="card">
-  <h3>Shroom-visions 2026</h3>
-  <p>Vision-language hallucination detection (4-class span classification).</p>
-</a>
-
-<a href="/shroom/2025a" class="card">
-  <h3>SHROOM-CAP 2025</h3>
-  <p>Cross-lingual scientific hallucination detection.</p>
-</a>
-
-<a href="/shroom/2025" class="card">
-  <h3>Mu-SHROOM 2025</h3>
-  <p>Multilingual hallucination span detection (14 languages).</p>
-</a>
-
-<a href="/shroom/2024" class="card">
-  <h3>SHROOM 2024</h3>
-  <p>Original hallucination detection task across NLG systems.</p>
-</a>
-
-</div>
-
-
----
-
-## 🍄🤪🌀 SHROOM 2024
+### [SHROOM 2024](/shroom/2024)
 <img style="width:30%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="right">
 
-**SHROOM** – the original Shared-task on Hallucinations and Related Observable Overgeneration Mistakes – kicked off the initiative at [SemEval-2024](https://semeval.github.io/SemEval2024/). Participants were asked to identify hallucinated content in NLG outputs across several generation tasks (e.g., machine translation, paraphrasing, definition modeling), both with and without access to the model that generated the outputs.
+**SHROOM** is the OG Shared-task on Hallucinations and Related Observable Overgeneration Mistakes. We kicked off the initiative at [SemEval-2024](https://semeval.github.io/SemEval2024/). Participants were asked to identify hallucinated content in NLG outputs across several generation tasks (e.g., machine translation, paraphrasing, definition modeling), both with and without access to the model that generated the outputs.
 
 🔗 [Go to the SHROOM 2024 website](/shroom/2024)
 
 ---
 
-##  🌈😜🍄 Mu-SHROOM 2025
+### [Mu-SHROOM 2025](/shroom/2025)
 <img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="left">
 
-**Mu-SHROOM** is the second edition of the shared task, held at [SemEval-2025](https://semeval.github.io/SemEval2025/). This multilingual extension of SHROOM expands the scope to 14 languages and shifts the focus to instruction-tuned large language models (LLMs). This time, the task targets hallucination **spans** at the character level — asking participants to predict where hallucinations occur and how likely they are.
-
-Mu-SHROOM brings together multilingual evaluation, character-level scoring, and a diverse set of public-weight LLMs, making it a challenging and rich task for researchers in hallucination detection and robust NLG.
+**Mu-SHROOM** is the second edition of the shared task, held at [SemEval-2025](https://semeval.github.io/SemEval2025/). This multilingual extension of SHROOM expands the scope to 14 languages and shifts the focus to instruction-tuned large language models (LLMs). This time, the task targets hallucination **spans** at the character level.
 
 🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
 
-
-
 ---
 
-##  🔍🧑‍🔬🍄 SHROOM-CAP Shared Task 2025
+### [SHROOM-CAP Shared Task 2025](/shroom/2025a)
 <img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/shroom-cap-blue+text.png" alt="SHROOM-CAP" title="SHROOM-CAP logo" align="left">
 
 **SHROOM-CAP** is the third edition of the shared task, held at [CHOMPS-2025](https://chomps2025.github.io/). This cross-lingual extension of SHROOM expands the scope to high and low resource languages with the special focus to indic languages. This time, the task targets hallucination in scientific domain — asking participants to predict if there is scienific hallucinations or not and how likely they are.
-
 
 🔗 [Explore SHROOM-CAP Shared Task](/shroom/2025a)
 
 ---
 
-## 👁️🍄🔮 SHROOM-visions 2026
+### [SHROOM-visions 2026](/shroom/2026)
 <img style="width:25%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-visions-logo.png" alt="Shroom-visions" title="Shroom-visions logo" align="right">
 
-**Shroom-visions** is the latest iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles a critical question: *How do we benchmark hallucination detection in an era of rapidly evolving models?*
+**Shroom-visions** is the fourth iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles hallucinations in vision-language models. 
 
-We follow a vision-language focus, providing a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). We provide a four-category taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian)
-
-Participants develop systems to identify and classify hallucinated text spans at the character level, with evaluation based on span identification accuracy and confidence calibration.
+With it we provide a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a a four-class taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian).
 
 🔗 [Explore Shroom-visions 2026](/shroom/2026)
 
