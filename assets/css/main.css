@@ -1,9 +1,8 @@
 .task-grid {
   display: flex;
+  justify-content: center;
   gap: 16px;
-  margin-top: 20px;
-  overflow-x: auto;
-  padding-bottom: 8px;
+  flex-wrap: wrap;
 }
 
 .card {
