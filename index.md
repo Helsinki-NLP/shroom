@@ -59,7 +59,7 @@ Whether you're interested in joining the next round, learning from past editions
 
 - Join the conversation on [Slack](https://join.slack.com/t/shroom-shared-task/shared_invite/zt-2mmn4i8h2-HvRBdK5f4550YHydj5lpnA)
 - Check out the past editions Google gorups
-  - [SHROOM-visions 2026](https://groups.google.com/g/shroom-visions-2026)
+  - [SHROOM-visions 2026](https://groups.google.com/g/shroom-visions/)
   - [SHROOM-CAP 2025](https://groups.google.com/g/shroomcap) 
   - [Mu-SHROOM 2025](https://groups.google.com/g/semeval-2025-task-3-mu-shroom)
   - [Mu-SHROOM 2024](https://groups.google.com/g/semeval-2024-task-6-shroom)
