@@ -34,7 +34,7 @@ This website serves as a central hub to explore the current and past editions of
 ---
 
 ### [SHROOM-CAP Shared Task 2025](/shroom/2025a)
-<img style="width:20%; min-width:150px; margin-left:25px; float:left" src="assets/img/shroom-cap-blue+text.png" alt="SHROOM-CAP" title="SHROOM-CAP logo" align="right">
+<img style="width:20%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-cap-blue+text.png" alt="SHROOM-CAP" title="SHROOM-CAP logo" align="right">
 
 **SHROOM-CAP** is the third edition of the shared task, held at [CHOMPS-2025](https://chomps2025.github.io/). This cross-lingual extension of SHROOM expands the scope to high and low resource languages with the special focus to indic languages. This time, the task targets hallucination in scientific domain — asking participants to predict if there is scienific hallucinations or not and how likely they are.
 
