@@ -8,4 +8,10 @@
 <script src='https://code.jquery.com/jquery-4.0.0.min.js'></script>
 <!-- test -->
 
+<!--New images on load -->
+<script>
+    var images = ["blue-vers.png", "brown-vers.png", "green-vers.png", "purple-vers.png"];
+    $('img#logo').attr("src", "assets/img/shroom-visions-" + images[Math.floor(Math.random() * images.length)] ;
+</script>
+
 <!-- end custom head snippets -->
