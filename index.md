@@ -13,23 +13,14 @@ This website serves as a central hub to explore the current and past editions of
 
 ## Explore the tasks
 
-### [SHROOM 2024](/shroom/2024)
-<img style="width:30%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-logo.png" alt="SHROOM logo" title="SHROOM logo" align="right">
+### [SHROOM-visions 2026](/shroom/2026)
+<img id="logo2026" style="width:25%; min-width:150px; margin-right:25px; float:right" alt="Shroom-visions" title="Shroom-visions logo" align="left">
 
-**SHROOM** is the OG Shared-task on Hallucinations and Related Observable Overgeneration Mistakes. We kicked off the initiative at [SemEval-2024](https://semeval.github.io/SemEval2024/). Participants were asked to identify hallucinated content in NLG outputs across several generation tasks (e.g., machine translation, paraphrasing, definition modeling), both with and without access to the model that generated the outputs.
+**Shroom-visions** is the fourth iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles hallucinations in vision-language models. 
 
-🔗 [Go to the SHROOM 2024 website](/shroom/2024)
+With it we provide a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a a four-class taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian).
 
----
-
-### [Mu-SHROOM 2025](/shroom/2025)
-<img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="left">
-
-**Mu-SHROOM** is the second edition of the shared task, held at [SemEval-2025](https://semeval.github.io/SemEval2025/). This multilingual extension of SHROOM expands the scope to 14 languages and shifts the focus to instruction-tuned large language models (LLMs). Morevoer, in Mu-SHROOM we target hallucination **spans** at the character level!
-
-🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
-
-
+🔗 [Explore Shroom-visions 2026](/shroom/2026)
 
 ---
 
@@ -42,14 +33,21 @@ This website serves as a central hub to explore the current and past editions of
 
 ---
 
-### [SHROOM-visions 2026](/shroom/2026)
-<img style="width:25%; min-width:150px; margin-right:25px; float:right" src="assets/img/shroom-visions-logo.png" alt="Shroom-visions" title="Shroom-visions logo" align="left">
+### [Mu-SHROOM 2025](/shroom/2025)
+<img style="width:20%; min-width:150px; margin-right:25px; float:left" src="assets/img/mu-shroom-logo.png" alt="Mu-SHROOM" title="SHROOM logo" align="left">
 
-**Shroom-visions** is the fourth iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles hallucinations in vision-language models. 
+**Mu-SHROOM** is the second edition of the shared task, held at [SemEval-2025](https://semeval.github.io/SemEval2025/). This multilingual extension of SHROOM expands the scope to 14 languages and shifts the focus to instruction-tuned large language models (LLMs). Morevoer, in Mu-SHROOM we target hallucination **spans** at the character level!
 
-With it we provide a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a a four-class taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian).
+🔗 [Explore Mu-SHROOM 2025](/shroom/2025)
 
-🔗 [Explore Shroom-visions 2026](/shroom/2026)
+---
+
+### [SHROOM 2024](/shroom/2024)
+<img style="width:30%; min-width:150px; margin-left:25px; float:right" src="assets/img/shroom-logo.png" alt="SHROOM logo" title="SHROOM logo" align="right">
+
+**SHROOM** is the OG Shared-task on Hallucinations and Related Observable Overgeneration Mistakes. We kicked off the initiative at [SemEval-2024](https://semeval.github.io/SemEval2024/). Participants were asked to identify hallucinated content in NLG outputs across several generation tasks (e.g., machine translation, paraphrasing, definition modeling), both with and without access to the model that generated the outputs.
+
+🔗 [Go to the SHROOM 2024 website](/shroom/2024)
 
 ---
 
