@@ -1,59 +1,37 @@
+/* 1. Define Variables (Safe to keep global) */
+:root {
+  --shroom-bg: #FFF5F7;
+  --shroom-pattern: #FFE4EC;
+  --shroom-text: #2D1B2E;
+  --shroom-muted: #8A7A8B;
+  --shroom-accent: #FF85A2;
+  --shroom-shadow: #CDB4DB;
+  --shroom-border: 4px;
+}
 
-    :root {
-      /* Cute Pastel-Retro Palette */
-      --bg-color: #FFF5F7;        /* Soft warm white/pink */
-      --bg-pattern: #FFE4EC;      /* Slightly darker pink for dots */
-      --card-bg: #FFFFFF;
-      --text-main: #2D1B2E;       /* Soft dark purple/black */
-      --text-muted: #8A7A8B;
-      --accent: #FF85A2;          /* Cute pastel pink */
-      --accent-hover: #FF5C8A;
-      --secondary: #A2D2FF;       /* Soft pastel blue */
-      --shadow: #CDB4DB;          /* Pastel purple shadow */
-      --border-width: 4px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: var(--bg-color);
-      background-image: radial-gradient(var(--bg-pattern) 15%, transparent 16%);
-      background-size: 20px 20px;
-      color: var(--text-main);
-      font-family: 'VT323', monospace;
-      font-size: 1.5rem;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column; /* Changed to column to stack banner and container */
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1.5rem;
-    }
-
-    .container {
-      max-width: 500px;
-      width: 100%;
-      text-align: center;
-      margin-top: 2rem; /* Space between banner and card */
-    }
-
-.pixel-banner {
-  width: 100%;
-  max-width: 1200px;
-  min-height: 200px;
-  margin: 0 auto 2rem auto; /* Spaces it nicely above your main container */
-  position: relative;
-  background-color: var(--bg-color);
-  border: var(--border-width) solid var(--text-main);
-  box-shadow: 8px 8px 0px var(--shadow);
+/* 2. WRAPPER: Apply background/fonts ONLY to the banner container, not the whole page */
+.shroom-banner-wrapper {
+  max-width: none;
+  margin: 2rem auto 2rem auto;
+  background-color: var(--shroom-bg);
+  background-image: radial-gradient(var(--shroom-pattern) 15%, transparent 16%);
+  background-size: 20px 20px;
+  border: var(--shroom-border) solid var(--shroom-text);
+  box-shadow: 8px 8px 0px var(--shroom-shadow);
   overflow: hidden;
+  position: relative;
+  
+  /* Font settings ONLY for inside the banner */
+  font-family: 'VT323', monospace; 
+  color: var(--shroom-text);
+}
+
+/* 3. BANNER LAYOUT */
+.pixel-banner {
   display: flex;
   align-items: center;
+  padding: 1rem;
+  min-height: 200px;
 }
 
 .banner-text-area {
@@ -63,19 +41,20 @@
   text-align: left;
 }
 
+/* 4. FONTS: Specific to banner elements */
 .banner-text-area h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive !important; /* Force the pixel font */
   font-size: 1.2rem;
-  color: var(--accent);
+  color: var(--shroom-accent);
   margin-bottom: 0.8rem;
-  line-height: 1.2;
+  line-height: 1.4;
   text-transform: uppercase;
 }
 
 .banner-text-area p {
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
-  color: var(--text-muted);
+  color: var(--shroom-muted);
   margin: 0;
 }
 
@@ -92,25 +71,22 @@
   width: 100%;
   height: auto;
   image-rendering: pixelated;
-  shape-rendering: crispEdges;
 }
 
-/* --- Spores --- */
+/* 5. ANIMATIONS  */
 .spore {
   position: absolute;
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   background-color: #ffffff;
   opacity: 0;
-  /* Pastel pink accent shadow for a cute, crisp pixel glow */
-  box-shadow: 1px 0 0 var(--accent), 0 1px 0 var(--accent), 1px 1px 0 var(--accent); 
+  box-shadow: 1px 0 0 var(--shroom-accent), 0 1px 0 var(--shroom-accent), 1px 1px 0 var(--shroom-accent); 
 }
 
 .spore-1 { left: 60%; bottom: 30%; animation: drift 6s linear infinite; animation-delay: 0s; }
 .spore-2 { left: 75%; bottom: 40%; animation: drift 7s linear infinite; animation-delay: 2s; }
 .spore-3 { left: 85%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
 .spore-4 { left: 30%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
-
 
 @keyframes drift {
   0% { transform: translateY(0) translateX(0); opacity: 0; }
@@ -160,21 +136,21 @@
   100% { transform: translateX(0); }
 }
 
-.flower-cap {
-  animation: flower-sway 4s ease-in-out infinite;
-  transform-origin: center;
-}
-
 .flower-cap2 {
   animation: bounce 3s ease-in-out infinite;
   transform-origin: center;
 }
+
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
 
 
+.flower-cap {
+  animation: flower-sway 4s ease-in-out infinite;
+  transform-origin: center;
+}
 
 @keyframes flower-sway {
   0%   { transform: translateX(0px); }
@@ -184,20 +160,12 @@
   100% { transform: translateX(0px); }
 }
 
-/* Accessibility: Respect user's reduced motion preferences */
-@media (prefers-reduced-motion: reduce) {
-  .spore, .mushroom-group, .cloud-move, .cloud-bounce {
-    animation: none !important;
-  }
-  .spore { opacity: 0.5; }
-}
 
+/* Mobile Responsive */
 @media (max-width: 768px) {
-
   .pixel-banner {
     flex-direction: column;
   }
-
   .banner-text-area {
     text-align: center;
     padding: 2rem 2rem 0 2rem; 
@@ -208,19 +176,11 @@
   }
   .banner-text-area p {
   font-size: 0.9rem;
+
   }
 
   .banner-art-area {
-    width: 75%;
+    width: 100%;
+    margin-top: 1rem;
   }
 }
-
-@keyframes sun-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
