@@ -1,8 +1,11 @@
 ---
-title: The *SHROOM Shared Task Series
-description: Hallucinations and Related Observable Overgenerations
 layout: default
 ---
+
+{% include pixel_banner.html 
+   title="The *SHROOM Shared Task Series"
+   subtitle="Hallucinations and Related Observable Overgenerations"
+%}
 
 # Welcome to the *SHROOM Shared-Task Series on Hallucinations and Related Observable Overgeneration Mistakes
 The SHROOM shared task series brings together researchers and practitioners interested in detecting hallucinations — that is, fluent yet semantically incorrect or unsupported outputs — in natural language generation (NLG) systems. Since 2024, we've been pushing the boundaries of automatic hallucination detection, with each edition introducing new challenges and innovations.

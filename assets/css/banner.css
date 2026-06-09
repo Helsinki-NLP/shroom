@@ -1,0 +1,226 @@
+
+    :root {
+      /* Cute Pastel-Retro Palette */
+      --bg-color: #FFF5F7;        /* Soft warm white/pink */
+      --bg-pattern: #FFE4EC;      /* Slightly darker pink for dots */
+      --card-bg: #FFFFFF;
+      --text-main: #2D1B2E;       /* Soft dark purple/black */
+      --text-muted: #8A7A8B;
+      --accent: #FF85A2;          /* Cute pastel pink */
+      --accent-hover: #FF5C8A;
+      --secondary: #A2D2FF;       /* Soft pastel blue */
+      --shadow: #CDB4DB;          /* Pastel purple shadow */
+      --border-width: 4px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      background-image: radial-gradient(var(--bg-pattern) 15%, transparent 16%);
+      background-size: 20px 20px;
+      color: var(--text-main);
+      font-family: 'VT323', monospace;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column; /* Changed to column to stack banner and container */
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      margin-top: 2rem; /* Space between banner and card */
+    }
+
+.pixel-banner {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 200px;
+  margin: 0 auto 2rem auto; /* Spaces it nicely above your main container */
+  position: relative;
+  background-color: var(--bg-color);
+  border: var(--border-width) solid var(--text-main);
+  box-shadow: 8px 8px 0px var(--shadow);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text-area {
+  flex: 1.25;
+  padding: 0 2rem;
+  z-index: 1;
+  text-align: left;
+}
+
+.banner-text-area h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.banner-text-area p {
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.banner-art-area {
+  flex: 1.4;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.pixel-banner svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+  shape-rendering: crispEdges;
+}
+
+/* --- Spores --- */
+.spore {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  opacity: 0;
+  /* Pastel pink accent shadow for a cute, crisp pixel glow */
+  box-shadow: 1px 0 0 var(--accent), 0 1px 0 var(--accent), 1px 1px 0 var(--accent); 
+}
+
+.spore-1 { left: 60%; bottom: 30%; animation: drift 6s linear infinite; animation-delay: 0s; }
+.spore-2 { left: 75%; bottom: 40%; animation: drift 7s linear infinite; animation-delay: 2s; }
+.spore-3 { left: 85%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
+.spore-4 { left: 30%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
+
+
+@keyframes drift {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  20% { opacity: 0.7; }
+  80% { opacity: 0.5; }
+  100% { transform: translateY(-50px) translateX(10px); opacity: 0; }
+}
+
+.cloud-move {
+  animation: move-cloud 25s linear infinite;
+}
+
+.cloud-bounce {
+  animation: bounce-cloud 5s ease-in-out infinite;
+}
+
+.sun-rays {
+  transform-origin: 32px 32px;
+  animation: sun-spin 168s linear infinite;
+}
+
+@keyframes move-cloud {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(100px); } 
+  100% { transform: translateX(-50px); }
+}
+
+@keyframes bounce-cloud {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-10px); }
+}  
+
+/* --- Animations --- */
+.mushroom-group {
+  animation: gentle-bob 4s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes gentle-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); } /* Only 4px, barely noticeable but alive */
+}
+
+@keyframes move-across {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(30px); } /* Gentle breathing drift instead of flying across */
+  100% { transform: translateX(0); }
+}
+
+.flower-cap {
+  animation: flower-sway 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.flower-cap2 {
+  animation: bounce 3s ease-in-out infinite;
+  transform-origin: center;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+
+
+@keyframes flower-sway {
+  0%   { transform: translateX(0px); }
+  25%  { transform: translateX(3px); }
+  50%  { transform: translateX(0px); }
+  75%  { transform: translateX(-2px); }
+  100% { transform: translateX(0px); }
+}
+
+/* Accessibility: Respect user's reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .spore, .mushroom-group, .cloud-move, .cloud-bounce {
+    animation: none !important;
+  }
+  .spore { opacity: 0.5; }
+}
+
+@media (max-width: 768px) {
+
+  .pixel-banner {
+    flex-direction: column;
+  }
+
+  .banner-text-area {
+    text-align: center;
+    padding: 2rem 2rem 0 2rem; 
+  }
+
+  .banner-text-area h2 {
+    font-size: 0.75rem;
+  }
+  .banner-text-area p {
+  font-size: 0.9rem;
+  }
+
+  .banner-art-area {
+    width: 75%;
+  }
+}
+
+@keyframes sun-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
