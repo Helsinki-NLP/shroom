@@ -2,12 +2,13 @@
 :root {
   --shroom-bg: #FFF5F7;
   --shroom-pattern: #FFE4EC;
-  --shroom-text: #2D1B2E;
+  --shroom-accent: #2D1B2E;
   --shroom-muted: #8A7A8B;
-  --shroom-accent: #FF85A2;
+  --shroom-text: #FF85A2;
   --shroom-shadow: #CDB4DB;
   --shroom-border: 4px;
 }
+
 
 /* 2. WRAPPER: Apply background/fonts ONLY to the banner container, not the whole page */
 .shroom-banner-wrapper {
@@ -16,13 +17,17 @@
   background-color: var(--shroom-bg);
   background-image: radial-gradient(var(--shroom-pattern) 15%, transparent 16%);
   background-size: 20px 20px;
-  border: var(--shroom-border) solid var(--shroom-text);
+  border: var(--shroom-border) solid var(--shroom-accent);
   box-shadow: 8px 8px 0px var(--shroom-shadow);
   overflow: hidden;
   position: relative;
   
   /* Font settings ONLY for inside the banner */
   font-family: 'VT323', monospace; 
+  color: var(--shroom-accent);
+}
+
+.shroom-banner-wrapper .banner-text-area h2 {
   color: var(--shroom-text);
 }
 
@@ -45,7 +50,7 @@
 .banner-text-area h2 {
   font-family: 'Press Start 2P', cursive !important; /* Force the pixel font */
   font-size: 1.2rem;
-  color: var(--shroom-accent);
+  color: var(--shroom-text);
   margin-bottom: 0.8rem;
   line-height: 1.4;
   text-transform: uppercase;
@@ -80,7 +85,7 @@
   height: 6px;
   background-color: #ffffff;
   opacity: 0;
-  box-shadow: 1px 0 0 var(--shroom-accent), 0 1px 0 var(--shroom-accent), 1px 1px 0 var(--shroom-accent); 
+  box-shadow: 1px 0 0 var(--shroom-text), 0 1px 0 var(--shroom-text), 1px 1px 0 var(--shroom-text); 
 }
 
 .spore-1 { left: 60%; bottom: 30%; animation: drift 6s linear infinite; animation-delay: 0s; }
@@ -175,7 +180,7 @@
     font-size: 0.75rem;
   }
   .banner-text-area p {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 
   }
 
@@ -184,3 +189,5 @@
     margin-top: 1rem;
   }
 }
+
+
