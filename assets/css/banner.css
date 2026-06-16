@@ -166,6 +166,15 @@
 }
 
 
+@keyframes sun-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .pixel-banner {
