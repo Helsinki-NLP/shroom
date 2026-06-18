@@ -10,7 +10,10 @@ layout: default
 # Welcome to the *SHROOM Shared-Task Series on Hallucinations and Related Observable Overgeneration Mistakes
 The SHROOM shared task series brings together researchers and practitioners interested in detecting hallucinations — that is, fluent yet semantically incorrect or unsupported outputs — in natural language generation (NLG) systems. Since 2024, we've been pushing the boundaries of automatic hallucination detection, with each edition introducing new challenges and innovations.
 
-This website serves as a central hub to explore the current and past editions of the shared task, including SHROOM (2024), Mu-SHROOM (2025), and the upcoming ν-SHROOM (2026).
+This website serves as a central hub to explore the current and past editions of the shared task, including SHROOM (2024), Mu-SHROOM (2025), SHROOM-CAP (also 2025 🫠) and the currently running SHROOM-Vision (2026).
+
+<mark>**NEW**</mark>
+We have socials! Find us on Twitter at [@SHROOM_ST](https://x.com/SHROOM_ST) and on BlueSky at [@shroom-st.bsky.social](https://bsky.app/profile/shroom-st.bsky.social)!
 
 --- 
 
