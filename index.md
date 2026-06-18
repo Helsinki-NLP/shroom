@@ -12,7 +12,7 @@ The SHROOM shared task series brings together researchers and practitioners inte
 
 This website serves as a central hub to explore the current and past editions of the shared task, including SHROOM (2024), Mu-SHROOM (2025), SHROOM-CAP (also 2025 🫠) and the currently running SHROOM-Vision (2026).
 
-<mark>**NEW**</mark>
+**NEW:**
 We have socials! Find us on Twitter at [@SHROOM_ST](https://x.com/SHROOM_ST) and on BlueSky at [@shroom-st.bsky.social](https://bsky.app/profile/shroom-st.bsky.social)!
 
 --- 
