@@ -19,12 +19,25 @@ We have socials! Find us on Twitter at [@SHROOM_ST](https://x.com/SHROOM_ST) and
 
 ## Explore the tasks
 
-### [SHROOM-visions 2026](/shroom/2026)
+### [SHROOM-Visions-2.0 ](/shroom/2026a)
+<img id="logo2026" style="width:25%; min-width:150px; margin-right:25px; float:right" alt="Shroom-visions" title="Shroom-visions logo" align="left">
+
+**Shroom-Visions-2.0** is the fifth iteration of the SHROOM series, hosted at the [CHOMPS Workshop](https://chomps-workshop.github.io/) (co-located with EACL 2027). This edition tackles **out-of-distribution** hallucinations in vision-language models. 
+
+Following success of SHROOM-Visions et UncertaiNLP, for this eidition we provide a _suprise test dataset_ for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a four-class taxonomy for hallucinaiton occurences to address a key question: 
+
+_Can your hallucination detector generalize to entirely unseen languages and domains?_
+
+🔗 [Explore Shroom-Visions-2.0](/shroom/2026a)
+
+---
+
+### [SHROOM-Visions 2026](/shroom/2026)
 <img id="logo2026" style="width:25%; min-width:150px; margin-right:25px; float:right" alt="Shroom-visions" title="Shroom-visions logo" align="left">
 
 **Shroom-visions** is the fourth iteration of the SHROOM series, hosted at the [UncertainLP Workshop](https://uncertainlp.github.io/) (co-located with EMNLP 2026). This edition tackles hallucinations in vision-language models. 
 
-With it we provide a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a a four-class taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian).
+With it we provide a dataset for hallucination detection in image-conditioned text generation (VQA, image captioning, etc.). and a four-class taxonomy for hallucinaiton occurences in a multilingual setup (Chinese, English, French, Italian).
 
 🔗 [Explore Shroom-visions 2026](/shroom/2026)
 
