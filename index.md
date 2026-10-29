@@ -19,16 +19,16 @@ We have socials! Find us on Twitter at [@SHROOM_ST](https://x.com/SHROOM_ST) and
 
 ## Explore the tasks
 
-### [SHROOM-Voodo ](/shroom/2026a)
-<img id="logo2026" style="width:25%; min-width:150px; margin-right:25px; float:right" alt="Shroom-visions" title="Shroom-visions logo" align="left">
+### [SHROOM-VOODoo ](/shroom/2027)
+<img id="logo2026" style="width:25%; min-width:150px; margin-right:25px; float:right" src="assets/img/shroom-voodo-logo.jpeg" alt="Shroom-voodoo" title="Shroom-voodoo logo" align="left">
 
-**SHROOM-Voodo** is the fifth iteration of the SHROOM series, hosted at the [CHOMPS Workshop](https://chomps-workshop.github.io/) (co-located with EACL 2027). This edition tackles **out-of-distribution robustness** for hallucination detection with vision-language models in the unseen domain(s). 
+**SHROOM-VOODoo** is the fifth iteration of the SHROOM series, hosted at the [CHOMPS Workshop](https://chomps-workshop.github.io/) (co-located with EACL 2027). This edition tackles **out-of-distribution robustness** for hallucination detection with vision-language models in the unseen domain(s). 
 
 Following success of SHROOM-Visions at UncertaiNLP 2026, for this edition we provide _surprise test_ dataset containing image-conditioned questions and a multi-class taxonomy to address a key question: 
 
 _Can your hallucination detector generalize to entirely unseen languages and domains?_
 
-🔗 [Explore Shroom-Visions-2.0](/shroom/2026a)
+🔗 [Explore Shroom-VOODoo](https://forms.gle/ZvSu8dkdBhUaD7cC7)
 
 ---
 
